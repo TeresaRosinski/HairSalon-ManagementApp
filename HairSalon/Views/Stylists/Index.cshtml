@@ -12,10 +12,21 @@
   <h3>There are currently no Stylists</h3>
 } 
 
-@foreach (Stylist stylist in Model)
-{
-  <li>@Html.ActionLink($"{stylist.Name}", "Details", new { id = stylist.StylistId })</li>
-}
+<table class="tbale table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (Stylist stylist in Model)
+    {
+      <tr>
+      <td>@Html.ActionLink($"{stylist.Name}", "Details", new { id = stylist.StylistId })</td>
+      </tr>
+    }
+  </tbody>
+</table>
 
 
 <button >@Html.ActionLink("Add New Stylist", "Create")</button>
