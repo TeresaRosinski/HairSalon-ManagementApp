@@ -25,6 +25,14 @@
 | **Program adds clients to specific stylists** | "Client: Ann" | "Client Added to Tom's Client List" |
 | **Program only allows each client to have one stylist** | "N/A" | "N/A"  |
 
+### Strech Goals
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+|**Clients can leave Requests for Stylists**| N/A | N/A|
+|**Stylists can leave Comments for Clients**| N/A | N/A |
+|**Clients can sign up for specific Appointments**|N/A | N/A|
+|**When a Client signs up for an appointment, they can attach pictures of styles they prefer** | N/A | N/A |
+
 ## Support and contact details
 
 _For question, concerns, or if you would like to make contributions to this work, please contact Teresa Rosinski at trosinski89@gmail.com_
