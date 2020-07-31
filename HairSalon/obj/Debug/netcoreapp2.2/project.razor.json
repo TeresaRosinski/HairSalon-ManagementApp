@@ -2969,6 +2969,56 @@
       "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Stylists/Edit.cshtml",
+      "TargetPath": "Views\\Stylists\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Dlete.cshtml",
+      "TargetPath": "Views\\Clients\\Dlete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Edit.cshtml",
+      "TargetPath": "Views\\Clients\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Stylists/Create.cshtml",
+      "TargetPath": "Views\\Stylists\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Stylists/Delete.cshtml",
+      "TargetPath": "Views\\Stylists\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Create.cshtml",
+      "TargetPath": "Views\\Clients\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Stylists/Details.cshtml",
+      "TargetPath": "Views\\Stylists\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Details.cshtml",
+      "TargetPath": "Views\\Clients\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Index.cshtml",
+      "TargetPath": "Views\\Clients\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Stylists/Index.cshtml",
+      "TargetPath": "Views\\Stylists\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
