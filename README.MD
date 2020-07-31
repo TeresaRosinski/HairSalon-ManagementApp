@@ -22,7 +22,10 @@
 | :-------------     | :------------- | :------------- |
 | **Program creates instance of the Stylist class** | N/A | N/A |
 | **Program creates instance of the Client class** | N/A | N/A |
+| **Program only allows the user to add stylists** | "N/A" | "N/A"  |
+| **Program only allows user to see all stylists** | "N/A" | "N/A"  |
 | **Program adds clients to specific stylists** | "Client: Ann" | "Client Added to Tom's Client List" |
+| **Program only allows user to select a stylist and see a list of their clients** | "N/A" | "N/A"  |
 | **Program only allows each client to have one stylist** | "N/A" | "N/A"  |
 
 ### Strech Goals
