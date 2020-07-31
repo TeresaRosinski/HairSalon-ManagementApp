@@ -1,0 +1,25 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Stylist
+
+<legend>Add a new Stylist</legend>
+@using (Html.BeginForm())
+{   
+
+    <form class = "form-horizontal">
+      <label for="name" class="col-lg-2 control-label">Name </label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="name" placeholder="Email">
+      </div>
+      @Html.LabelFor(model => model.Name)
+      @Html.TextBoxFor(model => model.Name)
+
+      @Html.LabelFor(model => model.Title)
+      @Html.TextBoxFor(model => model.Title)
+    <input type="submit" value="Add new Stylist" />
+    </form>
+}
+
+<p>@Html.ActionLink("Show all categories", "Index")</p>
