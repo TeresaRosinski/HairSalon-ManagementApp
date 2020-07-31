@@ -2966,6 +2966,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Delete.cshtml",
+      "TargetPath": "Views\\Clients\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -2973,11 +2978,6 @@
     {
       "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Stylists/Edit.cshtml",
       "TargetPath": "Views\\Stylists\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/Views/Clients/Dlete.cshtml",
-      "TargetPath": "Views\\Clients\\Dlete.cshtml",
       "FileKind": "mvc"
     },
     {
