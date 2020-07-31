@@ -4,25 +4,51 @@
 
 @model HairSalon.Models.Client
 
-<legend>Add a new Client</legend>
+<h3>Add a new Client</h3>
 
 @using (Html.BeginForm())
 {
-    @Html.LabelFor(model => model.Name)
-    @Html.TextBoxFor(model => model.Name)
-    
-    @Html.LabelFor(model => model.PhoneNumber)
-    @Html.TextBoxFor(model => model.PhoneNumber)
+    <form class="form-horizontal">
+      <fieldset>
+        <div class="col-lg-2 control-label">
+          @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="col-lg-10">
+          @Html.TextBoxFor(model => model.Name)
+        </div>
 
-    @Html.LabelFor(model => model.EmailAddress)
-    @Html.TextBoxFor(model => model.EmailAddress)
+        <div class="col-lg-2 control-label">
+          @Html.LabelFor(model => model.PhoneNumber)
+        </div>
+        <div class="col-lg-10">
+          @Html.TextBoxFor(model => model.PhoneNumber)
+        </div>
 
-    @Html.LabelFor(model => model.ClientNotes)
-    @Html.TextBoxFor(model => model.ClientNotes)
+        <div class="col-lg-2 control-label">
+          @Html.LabelFor(model => model.EmailAddress)
+        </div>
+        <div class="col-lg-10">
+          @Html.TextBoxFor(model => model.EmailAddress)
+        </div>
 
-    @Html.LabelFor(model => model.Stylist)
-    @Html.DropDownList("StylistId")
-
-    <input type="submit" value="Add new item" class="btn btn-default" />
+        <div class="col-lg-2 control-label">
+          @Html.LabelFor(model => model.ClientNotes)
+        </div>
+        <div class="col-lg-10">
+          @Html.TextBoxFor(model => model.ClientNotes)
+        </div>
+      
+        <div class="col-lg-2 control-label">
+        @Html.LabelFor(model => model.Stylist)
+        </div>
+        <div class="col-lg-10">
+          @Html.DropDownList("StylistId")
+        </div>
+        
+        <br>
+        <input type="submit" value="Add new client" class="btn btn-default" />
+      </fieldset>
+    </form>
 }
-<button>@Html.ActionLink("Show all clients", "Index")</button>
+<br> 
+<button>@Html.ActionLink("Back to Stylists", "Index")</button>
