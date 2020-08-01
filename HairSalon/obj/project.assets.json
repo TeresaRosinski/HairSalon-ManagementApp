@@ -12156,11 +12156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/HairSalon.csproj",
+      "projectUniqueName": "/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj",
       "projectName": "HairSalon",
-      "projectPath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/HairSalon.csproj",
+      "projectPath": "/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj",
       "packagesPath": "/Users/teresarosinski/.nuget/packages/",
-      "outputPath": "/Users/teresarosinski/Desktop/HairSalon/HairSalon/obj/",
+      "outputPath": "/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
