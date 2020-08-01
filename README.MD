@@ -6,7 +6,7 @@
 
 
 
-## Setup/Installation Requirements
+# Setup/Installation Requirements
 
 * to clone this content, copy the url provided by the 'clone or download' button in GitHub
 * in command line use the command 'git clone (GitHub url)'
@@ -18,7 +18,7 @@
 * type dotnet run in the command line to run the program
 
 
-### SQL Schema Query ##
+# SQL Schema Query #
 
 * DROP TABLE IF EXISTS `clients`;
 * SET character_set_client = utf8mb4 ;
@@ -39,9 +39,9 @@
   * `Name` varchar(255) DEFAULT NULL,
   * `Title` varchar(255) DEFAULT NULL,
   * PRIMARY KEY (`StylistId`)
-* )
+ )
 
-### Importing teresa_rosinski Database (As taken from LearnHowToProgram.com)
+# Importing teresa_rosinski Database (As taken from LearnHowToProgram.com)
 
 #### In the Navigator > Administration window, select Data Import/Restore.
 #### In Import Options select Import from Self-Contained File.
@@ -52,7 +52,7 @@
 #### Click Start Import.
 #### Reopen the Navigator > Schemas tab. Right click and select Refresh All. Our new test database will appear.
 
-### Specs
+# Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Program creates instance of the Stylist class** | N/A | N/A |
@@ -71,17 +71,18 @@
 |**Clients can sign up for specific Appointments**|N/A | N/A|
 |**When a Client signs up for an appointment, they can attach pictures of styles they prefer** | N/A | N/A |
 
-## Support and contact details
+# Support and contact details
 
 _For question, concerns, or if you would like to make contributions to this work, please contact Teresa Rosinski at trosinski89@gmail.com_
 
-## Technologies Used
+# Technologies Used
 
 VSCode
 C#
 MySqL
 Entity Framework
 .NET Core
+BootStrap
 
 ### License
 
