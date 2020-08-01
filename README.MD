@@ -17,6 +17,41 @@
 * create a .gitignore file and store the bin and obj folders in .gitignore
 * type dotnet run in the command line to run the program
 
+
+### SQL Schema Query ##
+
+* DROP TABLE IF EXISTS `clients`;
+* SET character_set_client = utf8mb4 ;
+* CREATE TABLE `clients` (
+ * `ClientId` int(11) NOT NULL AUTO_INCREMENT,
+  * `Name` varchar(255) DEFAULT NULL,
+  * `ClientNotes` varchar(255) DEFAULT NULL,
+  * `PhoneNumber` varchar(45) DEFAULT NULL,
+  * `EmailAddress` varchar(45) DEFAULT NULL,
+  * `StylistId` int(11) DEFAULT '0',
+  * PRIMARY KEY (`ClientId`)
+* )
+
+* DROP TABLE IF EXISTS `stylists`;
+* CREATE TABLE `stylists` (
+  * `StylistId` int(11) NOT NULL AUTO_INCREMENT,
+  * `ClientId` int(11) DEFAULT NULL,
+  * `Name` varchar(255) DEFAULT NULL,
+  * `Title` varchar(255) DEFAULT NULL,
+  * PRIMARY KEY (`StylistId`)
+* )
+
+### Importing teresa_rosinski Database (As taken from LearnHowToProgram.com)
+
+#### In the Navigator > Administration window, select Data Import/Restore.
+#### In Import Options select Import from Self-Contained File.
+#### Navigate to the file we just created.
+#### Under Default Schema to be Imported To, select the New button.
+#### Enter the name of your database 
+#### Click Ok.
+#### Click Start Import.
+#### Reopen the Navigator > Schemas tab. Right click and select Refresh All. Our new test database will appear.
+
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
