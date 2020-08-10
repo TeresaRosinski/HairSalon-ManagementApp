@@ -20,37 +20,45 @@
 
 # SQL Schema Query #
 
-* DROP TABLE IF EXISTS `clients`;
-* SET character_set_client = utf8mb4 ;
-* CREATE TABLE `clients` (
- * `ClientId` int(11) NOT NULL AUTO_INCREMENT,
-  * `Name` varchar(255) DEFAULT NULL,
-  * `ClientNotes` varchar(255) DEFAULT NULL,
-  * `PhoneNumber` varchar(45) DEFAULT NULL,
-  * `EmailAddress` varchar(45) DEFAULT NULL,
-  * `StylistId` int(11) DEFAULT '0',
-  * PRIMARY KEY (`ClientId`)
-* )
+```
+CREATE DATABASE IF NOT EXISTS teresa_rosinski; USE teresa_rosinski;
+DROP TABLE IF EXISTS `clients`;
+SET character_set_client = utf8mb4 ;
+CREATE TABLE `clients` (
+ `ClientId` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) DEFAULT NULL,
+  `ClientNotes` varchar(255) DEFAULT NULL,
+  `PhoneNumber` varchar(45) DEFAULT NULL,
+  `EmailAddress` varchar(45) DEFAULT NULL,
+  `StylistId` int(11) DEFAULT '0',
+  PRIMARY KEY (`ClientId`)
+)
 
-* DROP TABLE IF EXISTS `stylists`;
-* CREATE TABLE `stylists` (
-  * `StylistId` int(11) NOT NULL AUTO_INCREMENT,
-  * `ClientId` int(11) DEFAULT NULL,
-  * `Name` varchar(255) DEFAULT NULL,
-  * `Title` varchar(255) DEFAULT NULL,
-  * PRIMARY KEY (`StylistId`)
+DROP TABLE IF EXISTS `stylists`;
+CREATE TABLE `stylists` (
+  `StylistId` int(11) NOT NULL AUTO_INCREMENT,
+  `ClientId` int(11) DEFAULT NULL,
+  `Name` varchar(255) DEFAULT NULL,
+  `Title` varchar(255) DEFAULT NULL,
+   PRIMARY KEY (`StylistId`)
  )
+```
 
-# Importing teresa_rosinski Database (As taken from LearnHowToProgram.com)
+# Importing creating this Database in MySql
 
-#### In the Navigator > Administration window, select Data Import/Restore.
-#### In Import Options select Import from Self-Contained File.
-#### Navigate to the file we just created.
-#### Under Default Schema to be Imported To, select the New button.
-#### Enter the name of your database 
-#### Click Ok.
-#### Click Start Import.
-#### Reopen the Navigator > Schemas tab. Right click and select Refresh All. Our new test database will appear.
+ * Open MySql
+ * Click the Schema tab at the top of the program
+ * Right click in the box that holds the 'sys' table
+ * Select 'create schema'
+ * Name the schema 'teresa_rosinski'
+ * Click 'Apply' at the bottom of the page
+ * Create two tables that model the data above
+ * Navigate to the appsettings.json file in the VS Code
+ * Change the database password to reflect your password for MySql
+ * Run these commands in the terminal : 
+    * dotnet restore
+    * dotnet build
+
 
 # Specs
 | Spec | Input | Output |
@@ -77,12 +85,12 @@ _For question, concerns, or if you would like to make contributions to this work
 
 # Technologies Used
 
-VSCode
-C#
-MySqL
-Entity Framework
-.NET Core
-BootStrap
+* VSCode
+* C#
+* MySqL
+* Entity Framework
+* .NET Core
+* BootStrap
 
 ### License
 

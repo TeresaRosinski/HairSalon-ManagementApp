@@ -21,7 +21,7 @@
 
 DROP TABLE IF EXISTS `clients`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
- SET character_set_client = utf8mb4 ;
+SET character_set_client = utf8mb4 ;
 CREATE TABLE `clients` (
   `ClientId` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(255) DEFAULT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE `clients` (
 
 DROP TABLE IF EXISTS `stylists`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
- SET character_set_client = utf8mb4 ;
+SET character_set_client = utf8mb4 ;
 CREATE TABLE `stylists` (
   `StylistId` int(11) NOT NULL AUTO_INCREMENT,
   `ClientId` int(11) DEFAULT NULL,
