@@ -32,3 +32,9 @@
 /Users/teresarosinski/Desktop/HairSalon/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.dll
 /Users/teresarosinski/Desktop/HairSalon/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.pdb
 /Users/teresarosinski/Desktop/HairSalon/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.csproj.CopyComplete
+/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.csprojAssemblyReference.cache
+/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.csproj.CoreCompileInputs.cache
+/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.RazorAssemblyInfo.cache
+/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.RazorAssemblyInfo.cs
+/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.AssemblyInfoInputs.cache
+/Users/teresarosinski/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/HairSalon.AssemblyInfo.cs
